@@ -1,11 +1,9 @@
-library animation_list;
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class AnimationList extends StatefulWidget {
-  // Native List only parameters
   final Key? key;
   final ScrollController? controller;
   final bool? primary;
@@ -23,7 +21,6 @@ class AnimationList extends StatefulWidget {
   final String? restorationId;
   final Clip clipBehavior;
 
-  // Animation List only parameters
   final int duration;
   final double reBounceDepth;
 
