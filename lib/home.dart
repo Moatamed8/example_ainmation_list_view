@@ -1,4 +1,3 @@
-import 'package:example_animation_list/model/book.dart';
 import 'package:example_animation_list/provider/book_data.dart';
 import 'package:example_animation_list/widgets/list_item.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +15,7 @@ class _HomeState extends State<Home> {
 
   @override
   void initState() {
-    WidgetsBinding.instance!.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
     });
     super.initState();
   }
